@@ -1,7 +1,7 @@
 # Vonalkövető robot
 GKNB_INTM020 - Mikroelektromechanikai rendszerek
 
-A robot követi a neki kiépített pályát senzorok segítségével vagy irányíthatjuk manuálisan is. 
+A robot követi a neki kiépített pályát szenzorok segítségével vagy irányíthatjuk manuálisan is. 
 Futása során adatokat tárol el tevékenységéről. 
 
 ## Felhasznált fizikai elemek:
