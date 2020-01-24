@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <title>Használat</title>
+  </head>
+
+<body>
+
+<h1>Használat</h1>
+
+<h2>Kérem válassza a kivánt funkciót</h2>
+<p></p>
+<p>
+
+Ha ön a vonal követés funkciót válassza akkor helyezze az eszközt a fekete vonalra.</br>
+Ezért a gomb lenyomása után kérem helyezze az eszközt a kívánt fekete vonalra.
+
+</p>
+  <p>
+  Ha ön a kézi irányitást szeretné alkalmazni ,kérem nyomja meg a kézi irányitás gombot. </br>
+  Ezt követően indítsa el az ön telefonján található      applikációt .</br>
+  Az applikáció funkciójának megfelelően irányithatja az eszközt.
+  </p>
+  </br>
+  
+<input type="button" id='script' name="scriptbutton" value=" Vonal követés " onclick="goPython()">
+
+<input type="button" id='script' name="scriptbutton" value=" Kézi irányitás " onclick="goPython2()">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    <script>
+        function goPython(){
+            $.ajax({
+              url: "Robot_Line-Following.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+		
+		 function goPython2(){
+            $.ajax({
+              url: "Robot_Remote_Control.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script>
+</body>
+
+</html>
