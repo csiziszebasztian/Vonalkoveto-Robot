@@ -1,8 +1,13 @@
 # Vonalkövető robot
 GKNB_INTM020 - Mikroelektromechanikai rendszerek
 
-A robot követi a neki kiépített pályát szenzorok segítségével vagy irányíthatjuk manuálisan is. 
-Futása során adatokat tárol el tevékenységéről. 
+A projekt a gyárakban használt szállító robotok ötletén alapszik. Ezek egy meghatározott pályán végig mennek és valamilyen terméket szállítanak egyik helyről a másikra. Ennek egyszerűsített változata a projektünk, ami képes vonal követésre és a manuális irányításra.
+
+## Rendszer Funkciói
+* DC motor vezérlése
+* Vonal követése
+* Irányítás GUI-ról
+* Adatok tárolása
 
 ## Felhasznált fizikai elemek:
 * 1db Raspberry PI 4 Model B 
