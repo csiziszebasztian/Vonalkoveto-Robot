@@ -10,7 +10,7 @@ Futása során adatokat tárol el tevékenységéről.
 * 2db 9V-os DC motor
 * 2db vonalkövető szenzor
 * 1db Power bank
-* 1db játék autó
+* 1db játékautó
 
 ## Felhasznált szoftver elemek:
 * balenaEtcher
